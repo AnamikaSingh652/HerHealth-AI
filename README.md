@@ -4,70 +4,56 @@ AI-Powered Women Wellness & Healthcare Management Platform
 
 ## Features
 
-- User Registration & Login
-- JWT Authentication
-- Doctor Management
-- Appointment Booking
-- Appointment Cancellation
+- User Registration & Login with JWT Authentication
+- Role-Based Access Control
+- Doctor Management System
+- Appointment Booking & Cancellation
 - Medical Record Management
-- Secure REST APIs
 - MongoDB Database Integration
+- Secure REST APIs
+- Authentication Middleware
+- Healthcare Data Management
 
 ## Tech Stack
 
 ### Backend
 - Node.js
 - Express.js
-
-### Database
 - MongoDB
 - Mongoose
+- JWT Authentication
+- Bcrypt.js
 
-### Authentication
-- JWT
-- bcrypt
-
-### Testing
+### Tools
 - Postman
+- Git
+- GitHub
+- VS Code
 
 ## API Endpoints
 
 ### Authentication
+- POST /register
+- POST /login
 
-POST /register
+### User
+- GET /profile
 
-POST /login
+### Appointment
+- POST /book-appointment
+- GET /my-appointments
+- DELETE /cancel-appointment/:id
 
 ### Doctors
-
-POST /add-doctor
-
-GET /doctors
-
-### Appointments
-
-POST /book-appointment
-
-GET /appointments
-
-DELETE /cancel-appointment/:id
-
-PATCH /update-appointment-status/:id
+- POST /add-doctor
+- GET /doctors
 
 ### Medical Records
-
-POST /medical-record
-
-GET /medical-record
-
-## Project Highlights
-
-- Developed secure healthcare backend architecture.
-- Implemented JWT-based authentication and authorization.
-- Designed scalable MongoDB schemas.
-- Built REST APIs for doctors, appointments and medical records.
-- Tested APIs using Postman.
+- POST /medical-record
+- GET /medical-record
 
 ## Author
 
 Anamika Singh
+B.Tech Information Technology
+Pranveer Singh Institute of Technology
